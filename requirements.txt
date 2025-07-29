@@ -1,0 +1,6 @@
+mnemonic==0.20
+bip32==3.4
+ecdsa==0.18.0
+pycryptodome==3.19.0
+requests==2.31.0
+base58==2.1.1

@@ -1,0 +1,39 @@
+{
+  "api_keys": {
+    "ethereum": "YOUR_ETHERSCAN_API_KEY",
+    "bsc": "YOUR_BSCSCAN_API_KEY",
+    "polygon": "YOUR_POLYGONSCAN_API_KEY",
+    "avalanche": "YOUR_SNOWTRACE_API_KEY",
+    "fantom": "YOUR_FTMSCAN_API_KEY",
+    "arbitrum": "YOUR_ARBISCAN_API_KEY",
+    "optimism": "YOUR_OPTIMISM_API_KEY"
+  },
+  "settings": {
+    "max_workers": 4,
+    "batch_size": 1000,
+    "rate_limit_delay": 0.2,
+    "timeout": 10,
+    "save_all_attempts": false,
+    "min_balance_usd": 0.01
+  },
+  "supported_chains": [
+    "bitcoin",
+    "ethereum",
+    "bsc",
+    "polygon",
+    "avalanche",
+    "fantom",
+    "arbitrum",
+    "optimism"
+  ],
+  "derivation_paths": {
+    "bitcoin": "m/44'/0'/0'/0/0",
+    "ethereum": "m/44'/60'/0'/0/0",
+    "bsc": "m/44'/60'/0'/0/0",
+    "polygon": "m/44'/60'/0'/0/0",
+    "avalanche": "m/44'/60'/0'/0/0",
+    "fantom": "m/44'/60'/0'/0/0",
+    "arbitrum": "m/44'/60'/0'/0/0",
+    "optimism": "m/44'/60'/0'/0/0"
+  }
+}
